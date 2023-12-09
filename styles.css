@@ -12,6 +12,7 @@
 
 body {
     background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-color: rgb(236, 233, 233);
     background-repeat: no-repeat;
     background-size: 500px;
     font-family: customFont;
@@ -46,5 +47,26 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: start;    
+}
+
+.header-text {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 140%;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 40%;
+}
+
+form {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name {
+    position: absolute;
+    left: 40%;
 }
 
