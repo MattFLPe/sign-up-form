@@ -61,12 +61,53 @@ body {
 }
 
 form {
+    
+    position: absolute;
+    left: 40%;
     background-color: white;
+    
+    
     font-family: 'Times New Roman', Times, serif;
 }
 
-.name {
+.fieldset-style {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 50px;
+}
+
+.form-style {
+    padding-top: 30px;
+    padding-bottom: 200px;
+    margin-top: -50px;
+    margin-left: 500px;
+
+    background-color: white;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-style {
+    border: solid #E5E7EB 1px;
+}
+
+input:focus {
+    border: solid blue 2px;
+    box-shadow: 1px 1px blue;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
     position: absolute;
     left: 40%;
+    bottom: 10%;
 }
 

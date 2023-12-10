@@ -13,7 +13,6 @@
             <div class="logo-section">Odin</div>
         </div>
     </div>
-<form action="example.com/path" method="post">
     <div class="header-text">
         This is not a real online service! 
         You know you need something<br>like this in your life to help you realize your deepest dreams.
@@ -23,12 +22,41 @@
         <br>
         You <em>know</em> you want to.
     </div>
-<fieldset class="name">
-    <label for="first_name">First Name:</label>
-    <input type="text" id="first_name" name="first_name">
-    <label for="last_name">First Name:</label>
-    <input type="text" id="last_name" name="last_name">
-</fieldset>
+    <div class="form-style">
+<form action="example.com/path" method="post">
+    <fieldset class="fieldset-style">
+        <legend>Let's do this!</legend>
+        <div class="input-container">
+            <label for="first_name">First Name</label>
+            <input class="input-style" type="text" id="first_name" name="first_name">
+        </div>
+        <div class="input-container">
+            <label for="last_name">Last Name</label>
+            <input class="input-style" type="text" id="last_name" name="last_name">
+        </div>
+    </fieldset>
+    <fieldset class="fieldset-style">
+        <div class="input-container">
+            <label for="user_email">Email</label>
+            <input class="input-style" type="email" id="user_email" name="email">
+        </div>
+        <div class="input-container">
+            <label for="user_phone">Phone Number</label>
+            <input class="input-style" type="text" id="user_phone" name="phone_number">
+        </div>
+    </fieldset>
+    <fieldset class="fieldset-style">
+        <div class="input-container">
+            <label for="user_password">Password</label>
+            <input class="input-style" type="password" id="user_password" name="password">
+        </div>
+        <div class="input-container">
+            <label for="confirm_password">Confirm Password</label>
+            <input class="input-style" type="password" id="confirm_password" name="confirm">
+        </div>
+    </fieldset>
 </form>
+</div>
+<button type="submit">Create Account</button>
 </body>
 </html>
