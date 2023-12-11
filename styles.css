@@ -53,61 +53,84 @@ body {
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 140%;
+    font-size: 120%;
     display: block;
     position: absolute;
-    top: 30px;
+    top: 20px;
     left: 40%;
 }
 
 form {
-    
     position: absolute;
     left: 40%;
     background-color: white;
-    
-    
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .fieldset-style {
     display: flex;
     flex-direction: row;
     align-items: start;
-    gap: 50px;
+    gap: 70px;
 }
 
 .form-style {
-    padding-top: 30px;
-    padding-bottom: 200px;
-    margin-top: -50px;
+    padding-top: 20px;
+    padding-bottom: 220px;
+    margin-top: -80px;
     margin-left: 500px;
-
+    box-shadow: 1px 3px 10px gray;
     background-color: white;
 }
 
 .input-container {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .input-style {
-    border: solid #E5E7EB 1px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    
 }
 
 input:focus {
-    border: solid blue 2px;
+    border: 2px solid blue;
     box-shadow: 1px 1px blue;
 }
 
 button {
     background-color: #596D48;
     color: white;
+    box-shadow: 1px 1px 2px #596D48;
     font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 15px 50px;
+    border-radius: 5px;
     position: absolute;
     left: 40%;
-    bottom: 10%;
+    bottom: 40px;
+}
+
+legend {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+
+a {
+    color:#596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    position: absolute;
+    left: 40%;
+    bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
